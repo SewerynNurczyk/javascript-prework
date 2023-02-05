@@ -13,3 +13,4 @@ function getMoveName(argMoveId){
 	if(argMoveId == 3){
 		return 'Nożyce';
 	}
+}
