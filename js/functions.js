@@ -41,4 +41,10 @@ function getMoveName(argMoveId){
 			}		
 	}
 
+function playGame(playerInput){
 
+}
+
+function clearMessages(){
+	document.getElementById('messages').innerHTML = '';
+}
