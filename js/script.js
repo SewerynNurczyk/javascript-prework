@@ -34,7 +34,7 @@ if(playerInput == '3'){
 */
 printMessage('Twój ruch to: ' + playerMove);
 
-if( computerMove == 'Kamień' && playerMove == 'Papier'){
+/*if( computerMove == 'Kamień' && playerMove == 'Papier'){
     printMessage('Ty wygrywasz!');
 }
 if( computerMove == 'Kamień' && playerMove == 'Nożyce'){
@@ -60,7 +60,8 @@ if( computerMove == 'Nożyce' && playerMove == 'Kamień'){
 }
 if( computerMove == 'Nożyce' && playerMove == 'Nożyce'){
     printMessage('Mamy remis!');
-}
+}*/
+ displayResult (computerMove, playerMove);
 
 if(playerInput !='1' && playerInput !='2' && playerInput !='3' ){
     printMessage ('Niewłaściwy ruch!')
